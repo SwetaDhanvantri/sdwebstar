@@ -1,0 +1,72 @@
+.foot{
+    background-color: black;
+    color: #fff;
+    padding: 80px;
+}
+.foot .heading{
+  
+    
+    text-transform: uppercase;
+    color: #fff;
+    border-left: 5px solid red;
+    padding-left: 10px;
+  
+    
+}
+.foot .icon{
+    margin-right: 10px;
+    color: rgb(107, 46, 221);
+    font-size: 22px;
+}
+
+/* Card  */
+
+.card {
+    position: relative;
+    border-radius: 20px;
+    color: #fff;
+    background-color: black !important;
+    
+}
+
+.card h3 {
+
+    color: #fff;
+    border-left: 5px solid red;
+    padding-left: 10px;
+    line-height: 1em
+}
+
+
+
+.form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+}
+textarea{
+    height: 50px;
+    width: 190px;
+}
+
+.subbtn{
+    color: #fff;
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+    border: none;
+}
+
+.foot .Container{
+    margin: 20px;
+}
+
+.foot .footlink{
+    color: #fff;
+    text-decoration: none;
+} 
+Link{
+    padding-left: 10px;
+  text-decoration: none;
+}

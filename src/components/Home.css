@@ -1,0 +1,156 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.home__hero-section{
+    color: #fff;
+    padding: 160px 0;
+
+}
+
+home__hero-row{
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+     
+}
+
+.col{
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.home__hero-wrapper{
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+.top-line{
+    color: #f00946;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.heading{
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 1.1;
+    font-weight: 600;
+    color: #f7f8fa;
+}
+
+.dark{
+    color: #1c2237;
+}
+
+.darkBg{
+    background-color: #1c2237;
+}
+
+home__hro-subtitle{
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.home__hero-img-wrapper{
+max-width: 555px;
+}
+.home__hero-img{
+    max-width: 95%;
+    padding-right: 0;
+    margin: 0 0 0 10px;
+}
+
+img{
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.bg-image{
+    background-image: url(https://mdbcdn.b-cdn.net/img/new/fluid/city/113.jpg);
+    height: 100vh;
+   
+    
+    
+}
+.mask{
+    background-color: rgba(0, 0, 0, 0.8);  
+     color: #fff;
+     height: 100vh;
+}
+.intro{
+    height: 100vh;
+}
+
+#intro h3{
+    text-transform: uppercase;
+    margin-top: 80px;
+    color: #fcfcfc;
+}
+#intro p{
+    font-size: 40px;
+    color: #acafb4;
+    padding: 40px;
+    text-align: center;
+}
+
+#intro .get-btn{
+    background-color: transparent;
+    border: 1px solid #f7f8fa;
+    padding: 10px 80px 10px 80px;
+    font-weight: 600;
+
+}
+
+#intro .get-btn:hover{
+    background-color:#fff;
+    color: #1c2237;
+    font-weight: 600;
+}
+.welcome{
+    padding-top: 100px;
+}
+
+
+#section-2 .container{
+  background-color: #1c2237;
+  color: #fff;
+  margin: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+ .section2{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#section-2 .title{
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+#section-2 .thumb{
+    background-color: #1c2237;
+}
