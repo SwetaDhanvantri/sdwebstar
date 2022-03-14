@@ -27,16 +27,19 @@ export default class NavbarComp extends Component {
         <Nav className="mx-auto">
           <Nav.Link as={Link} to="/about">About</Nav.Link>
           <NavDropdown title="Services"  id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.1">Web Design</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.2">Wredpress Development</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Social Media post design</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Resume Design</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Poster Design</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.3">Logo Design</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+            <NavDropdown.Item href="#action/3.4">See All</NavDropdown.Item>
           </NavDropdown>
         </Nav>
         <Nav>
           <Nav.Link as={Link} to="/contact" >
-          <Button variant='dark' className='sign-btn'>CONTACT</Button>
+          <Button className='sign-btn'>CONTACT</Button>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

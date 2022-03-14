@@ -27,7 +27,7 @@ function Home() {
  </div>
  <div id='section-2' className='section2'>
   <div className='text-center colms'>
-    <Row>
+    <Row className='shad'>
       <Col sm></Col>
       <Col md>
         <Container>
@@ -66,7 +66,7 @@ function Home() {
      </div>
 
      <div className='text-center colms mt-4'>
-    <Row>
+    <Row className='shad'>
       <Col sm></Col>
       <Col md>
         <Container>
@@ -79,7 +79,7 @@ function Home() {
         </Col>
       <Col md>
         <Container>
-        <div className='thumb'><img src='img\poster2.png' class="img-fluid"/>
+        <div className='thumb'><img src='img\poster2.png' className="img-fluid"/>
           </div>
           <div className='title'>
           <h4>Poster Design</h4>

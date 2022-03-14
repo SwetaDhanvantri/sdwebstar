@@ -1,0 +1,28 @@
+.head-about{
+    background-color: black;
+    color: #fff;
+    margin-bottom: 60px;
+   
+}
+
+.about-pic{
+    padding-top: 75px;
+}
+.row{
+    padding-bottom: 0px;
+}
+
+.first-line{
+    color: rgb(197, 195, 195);
+}
+.service{
+    font-size: 22px;
+    color:rgb(197, 136, 23);
+}
+.name{
+    font-size: 45px !important;
+    font-weight: 600;
+}
+.head-about .container{
+   padding-top: 140px;
+}

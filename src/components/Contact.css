@@ -3,11 +3,16 @@
     color: #fff;
     border-radius: 10px;
 }
+.contact{
+    margin-bottom: 60px;
+}
 .contact .heading{
     margin-top: 60px;
     margin-bottom: 60px;
-    color: black;
+    color: rgb(82, 41, 156);
     padding: 0px !important;
+    font-weight: 700 !important;
+    font-size: 28px;
 }
 .first h4{
  padding-top: 60px;
@@ -36,13 +41,16 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 10px;
-    
+  
 }
 .non-shad{
     box-shadow: none !important;
 }
-
+.form-1{
+    margin-top: 30px;
+}
 .form-1 input {
+  
     width: 80%;
     border-top: none;
     border-left: none;
@@ -55,9 +63,45 @@
 }
 
 .form-2 label{
-  margin-right: 10px;   
+  margin-right: 1px;   
 }
 .form-2 .head{
     margin-bottom: 10px;
     margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.form-2 input{
+    margin-right: 4px;
+}
+.form-3 .head{
+    margin-bottom: 10px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.form-3 input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(141, 137, 137);
+    width: 90%;
+    margin-top: 20px;
+}
+
+.send-btn{
+    margin-top: 60px;
+    text-align: right;
+     margin-right: 90px;
+}
+.butn-send{
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: rgb(82, 41, 156) !important;
+    color: #fff;
+
+}
+
+.opt{
+    box-shadow: none !important;
 }

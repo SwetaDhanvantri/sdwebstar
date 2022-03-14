@@ -154,3 +154,7 @@ img{
 #section-2 .thumb{
     background-color: #1c2237;
 }
+
+.shad{
+    box-shadow: none !important;
+}

@@ -6,41 +6,32 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
-}/* Color of the links BEFORE scroll */
-.navbar-scroll .nav-link,
-.navbar-scroll .navbar-toggler-icon {
-  color: #fff;
 }
 
-/* Color of the links AFTER scroll */
-.navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-toggler-icon {
-  color: #4f4f4f;
+.navbar-icon{
+  color: rgb(197, 136, 23);
 }
 
-/* Color of the navbar AFTER scroll */
-.navbar-scrolled {
-  background-color: #fff;
-}
-
-
-.pos{
-  position: sticky;
-}
-
-
-  
-
-  .navbar-custom{
+.navbar-custom{
     background-color: #4f4f4f !important;
   }
   .sign-btn{
     padding-left: 30px !important;
     padding-right: 30px !important;
     border-radius: 0px !important;
+    border: 1px solid rgb(197, 136, 23) !important;
+    background-color: rgb(197, 136, 23) !important;
+    color: #000;
+  }
+ 
+  
+  .sign-btn:hover{
+    color:#000 !important;
+    background-color: #fff !important;
   }
 
   .nav-link{
     color: #000 !important;
     text-transform: uppercase;
+    border: none;
   }
