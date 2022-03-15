@@ -1,7 +1,10 @@
 import React from 'react'
 import './Footer.css';
 import { Link } from 'react-router-dom';
-import {SiGmail} from 'react-icons/si'
+import {SiGmail} from 'react-icons/si';
+
+import {AiFillInstagram} from 'react-icons/ai';
+import {TiLocation} from 'react-icons/ti';
 import {Button, Container, Row, Col}  from 'react-bootstrap';
 
 function Footer() {
@@ -44,7 +47,9 @@ function Footer() {
             <Col xl={4} sm={12}>
             <div className='footer Container'>
              <div className='heading'><h5>CONTACT</h5></div>
-             <div className='text-right'><SiGmail  className='icon'/>   sdwebstar@gmail.com</div>  
+             <div className='text-right'><SiGmail  className='icon'/>   sdwebstar@gmail.com</div> 
+             <div className='mail'><a><AiFillInstagram className='icon'/><span>https://www.instagram.com/sdwebpoint/</span></a></div>
+              <div className='mail'><a><TiLocation className='icon'/>Faridabad, India</a></div> 
              </div>
                  
             </Col>

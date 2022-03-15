@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import {Button, Container, Row, Col}  from 'react-bootstrap';
+import { Container, Row, Col}  from 'react-bootstrap';
 import Footer from './Footer';
 function About() {
   return (
@@ -9,7 +9,7 @@ function About() {
          <Row>
            <Col xl={2}></Col>
            <Col xl={5}>
-             <div className='about-intro'>
+             <div className='about-intro text-right'>
               <Container>
                 <div className='first-line'><p>Hi I'Am</p></div>
                 <div className='name'><p>SHWETA DHANVANTRI</p></div>
@@ -17,9 +17,13 @@ function About() {
              </Container>
              </div>
              </Col>
-           <Col xl={3}><div className='about-pic'><img src='img\about-2.png' className="img-fluid"/></div></Col>
+           <Col xl={3}><div className='about-pic'><img src='img\about-2.png' alt='about-img' className="img-fluid"/></div></Col>
            <Col xl={2} sm></Col>
          </Row>
+        </div>
+
+        <div className='about-me'>
+
         </div>
         <Footer/>
     </div>
