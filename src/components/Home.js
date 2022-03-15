@@ -31,7 +31,7 @@ function Home() {
       <Col sm></Col>
       <Col md>
         <Container>
-          <div className='thumb'><img src='img\web.png' class="img-fluid "/>
+          <div className='thumb'><img src='./sdwebstar/img/web.png' class="img-fluid "/>
           </div>
           <div className='title'>
             <h4 >WEB DESIGN</h4></div>
@@ -40,7 +40,7 @@ function Home() {
         </Col>
       <Col md>
         <Container>
-        <div className='thumb'><img src='img/Design team-pana.png' class="img-fluid "/>
+        <div className='thumb'><img src='./sdwebstar/img/Design team-pana.png' class="img-fluid "/>
           </div>
           <div className='title'>
           <h4>WORDPRESS DEVELOPMENT</h4>
@@ -51,7 +51,7 @@ function Home() {
       <Col md>
       <Container>
       <div className='thumb'>
-       <img src='img\Social media-cuate.png' class="img-fluid "/>
+       <img src='./sdwebstar/img/Social media-cuate.png' class="img-fluid "/>
      </div>
         <div className='title'>
         <h4 >Social Media post design</h4>
@@ -70,7 +70,7 @@ function Home() {
       <Col sm></Col>
       <Col md>
         <Container>
-          <div className='thumb'><img src='img\Online resume-rafiki.png' class="img-fluid "/>
+          <div className='thumb'><img src='./sdwebstar/img/Online resume-rafiki.png' class="img-fluid "/>
           </div>
           <div className='title'>
             <h4 >Resume Design</h4></div>
@@ -79,7 +79,7 @@ function Home() {
         </Col>
       <Col md>
         <Container>
-        <div className='thumb'><img src='img\poster2.png' className="img-fluid"/>
+        <div className='thumb'><img src='./sdwebstar/img/poster2.png' className="img-fluid"/>
           </div>
           <div className='title'>
           <h4>Poster Design</h4>
@@ -90,7 +90,7 @@ function Home() {
       <Col md>
       <Container>
       <div className='thumb'>
-       <img src='img\logos.png' />
+       <img src='./sdwebstar/img/logos.png' />
      </div>
         <div className='title'>
         <h4 >LOGO DESIGN</h4>

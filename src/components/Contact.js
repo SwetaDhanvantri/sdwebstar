@@ -26,7 +26,7 @@ function Contact() {
                     <div className='mail'><a><TiLocation className='icon'/>Faridabad, India</a></div>
                   </Container>
                     
-                    <div className='shape'><img src='img\shape.png' class="img-fluid "/></div>
+                    <div className='shape'><img src='./sdwebstar/img/shape.png' class="img-fluid "/></div>
               </div>
             </Col>
             <Col md sm={6}>

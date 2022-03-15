@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
-import { Container, Row, Col}  from 'react-bootstrap';
+
+import { Container, Row, Col, Form}  from 'react-bootstrap';
 import Footer from './Footer';
 function About() {
   return (
@@ -17,7 +18,7 @@ function About() {
              </Container>
              </div>
              </Col>
-           <Col xl={3}><div className='about-pic'><img src='file:///C:/Users/Chiku/OneDrive/Desktop/Sdwebpoint/first-project/public/img/about-2.png' alt='about-img' className="img-fluid"/></div></Col>
+           <Col xl={3}><div className='about-pic'><img src='./sdwebstar/img/about-2.png' alt='about-img' className="img-fluid"/></div></Col>
            <Col xl={2} sm></Col>
          </Row>
         </div>
