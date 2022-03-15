@@ -17,7 +17,7 @@ function About() {
              </Container>
              </div>
              </Col>
-           <Col xl={3}><div className='about-pic'><img src='img\about-2.png' alt='about-img' className="img-fluid"/></div></Col>
+           <Col xl={3}><div className='about-pic'><img src='file:///C:/Users/Chiku/OneDrive/Desktop/Sdwebpoint/first-project/public/img/about-2.png' alt='about-img' className="img-fluid"/></div></Col>
            <Col xl={2} sm></Col>
          </Row>
         </div>

@@ -40,7 +40,7 @@ function Home() {
         </Col>
       <Col md>
         <Container>
-        <div className='thumb'><img src='img\Design team-pana.png' class="img-fluid "/>
+        <div className='thumb'><img src='img/Design team-pana.png' class="img-fluid "/>
           </div>
           <div className='title'>
           <h4>WORDPRESS DEVELOPMENT</h4>
