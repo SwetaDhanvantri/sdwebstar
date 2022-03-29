@@ -135,7 +135,8 @@ img{
 
 
 #section-2 .container{
-  background-color: #1c2237;
+  background-color: #000;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;;
   color: #fff;
   margin: 10px;
   padding: 10px 10px 10px 10px;
@@ -152,9 +153,15 @@ img{
     text-transform: uppercase;
 }
 #section-2 .thumb{
-    background-color: #1c2237;
+    background-color: #fff;
 }
 
 .shad{
     box-shadow: none !important;
+}
+#section-2 .row{
+ padding-right: 20px;
+}
+#section-2 h3{
+    text-transform: uppercase;
 }

@@ -48,7 +48,7 @@ function Footer() {
             <div className='footer Container'>
              <div className='heading'><h5>CONTACT</h5></div>
              <div className='text-right'><SiGmail  className='icon'/>   sdwebstar@gmail.com</div> 
-             <div className='mail'><a><AiFillInstagram className='icon'/><span>https://www.instagram.com/sdwebpoint/</span></a></div>
+             <div className='mail'><a><AiFillInstagram className='icon'/><span>https://www.instagram.com/sdwebstar/</span></a></div>
               <div className='mail'><a><TiLocation className='icon'/>Faridabad, India</a></div> 
              </div>
                  

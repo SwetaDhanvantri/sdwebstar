@@ -26,12 +26,14 @@ function Home() {
    </div>
  </div>
  <div id='section-2' className='section2'>
-  <div className='text-center colms'>
+   <div className='text-center'><h3>Our Services</h3></div>
+ {/* Row 1*/}
+  <div className='text-center colms'> 
     <Row className='shad'>
-      <Col sm></Col>
+    
       <Col md>
         <Container>
-          <div className='thumb'><img src='./sdwebstar/img/web.png' class="img-fluid "/>
+          <div className='thumb'><img src='img/web.png' class="img-fluid "/>
           </div>
           <div className='title'>
             <h4 >WEB DESIGN</h4></div>
@@ -40,7 +42,7 @@ function Home() {
         </Col>
       <Col md>
         <Container>
-        <div className='thumb'><img src='./sdwebstar/img/Design team-pana.png' class="img-fluid "/>
+        <div className='thumb'><img src='img\Design team-pana (2).png' class="img-fluid "/>
           </div>
           <div className='title'>
           <h4>WORDPRESS DEVELOPMENT</h4>
@@ -51,7 +53,7 @@ function Home() {
       <Col md>
       <Container>
       <div className='thumb'>
-       <img src='./sdwebstar/img/Social media-cuate.png' class="img-fluid "/>
+       <img src='img/Social media-cuate.png' class="img-fluid "/>
      </div>
         <div className='title'>
         <h4 >Social Media post design</h4>
@@ -59,27 +61,38 @@ function Home() {
      
         </Container>
         </Col>
-       <Col sm></Col>
+        <Col md>
+      <Container>
+      <div className='thumb'>
+       <img src='img\3.png' />
+     </div>
+        <div className='title'>
+        <h4 >Handmade Illustrations</h4>
+          </div>
+     
+        </Container>
+        </Col>
+        <Col md>
+      <Container>
+      <div className='thumb'>
+       <img src='img\4.png' />
+     </div>
+        <div className='title'>
+        <h4 >Hand Sketch</h4>
+          </div>
+     
+        </Container>
+        </Col>
     </Row>
 
     
      </div>
-
+    {/* Row 2*/ }
      <div className='text-center colms mt-4'>
     <Row className='shad'>
-      <Col sm></Col>
       <Col md>
-        <Container>
-          <div className='thumb'><img src='./sdwebstar/img/Online resume-rafiki.png' class="img-fluid "/>
-          </div>
-          <div className='title'>
-            <h4 >Resume Design</h4></div>
-        
-        </Container>
-        </Col>
-      <Col md>
-        <Container>
-        <div className='thumb'><img src='./sdwebstar/img/poster2.png' className="img-fluid"/>
+    <Container>
+        <div className='thumb'><img src='img\poster (2).png' className="img-fluid"/>
           </div>
           <div className='title'>
           <h4>Poster Design</h4>
@@ -89,8 +102,26 @@ function Home() {
         </Col>
       <Col md>
       <Container>
+          <div className='thumb'><img src='img\2.png' class="img-fluid "/>
+          </div>
+          <div className='title'>
+            <h4 >Digital Prints</h4></div>
+        
+        </Container>
+      </Col>
+      <Col md>
+        <Container>
+          <div className='thumb'><img src='img\Online resume-rafiki.png' class="img-fluid "/>
+          </div>
+          <div className='title'>
+            <h4 >Resume Design</h4></div>
+        
+        </Container>
+        </Col>
+      <Col md>
+      <Container>
       <div className='thumb'>
-       <img src='./sdwebstar/img/logos.png' />
+       <img src='img/logo.jpg' class="img-fluid "/>
      </div>
         <div className='title'>
         <h4 >LOGO DESIGN</h4>
@@ -98,13 +129,21 @@ function Home() {
      
         </Container>
         </Col>
-       <Col sm></Col>
-    </Row>
-
-    
+        <Col md>
+      <Container>
+      <div className='thumb'>
+       <img src='img\1.png' class="img-fluid "/>
      </div>
+        <div className='title'>
+        <h4 >Digital Illustrations</h4>
+          </div>
      
-
+        </Container>
+      </Col>
+     
+    </Row>
+   </div>
+   
    </div>
  </section>
  

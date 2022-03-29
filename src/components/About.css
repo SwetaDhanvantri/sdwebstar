@@ -22,7 +22,181 @@
 .name{
     font-size: 45px !important;
     font-weight: 600;
+    text-transform: uppercase;
 }
 .head-about .container{
    padding-top: 140px;
 }
+
+.about-me .row{
+    outline: none !important;
+    box-shadow: none !important;
+    margin-bottom: 20px;
+  
+}
+
+.pic-background{
+    background-color: black;
+    text-align: right;
+}
+
+#content {position:relative}
+#content:before{
+    position:absolute; content:' ';
+    width:89px; height: 89px;
+    border-color: rgb(197, 136, 23); /* or whatever colour */
+    border-style:solid; /* or whatever style */
+}
+#content:before {top:0;left:0;border-width: 7px 0 0 7px}
+ 
+.about-btn{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    background-color:rgb(197, 136, 23);
+    border: 1px solid rgb(197, 136, 23);
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+
+.skills .row{
+  margin-bottom: 10px !important;
+    box-shadow: none;
+ 
+}
+ .about-btn:hover{
+    background-color: #fff !important;
+    color: rgb(197, 136, 23);
+    border: 1px solid #fff;
+}
+.about-detail{
+padding-left: 20px;
+}
+ .style{
+    color: rgb(197, 136, 23);  
+}
+
+
+
+/* Bars */
+.right{
+  
+    text-align: left
+}
+.progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 500px;
+  }
+  
+  .progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    background: rgb(19, 18, 18);
+    color: #fff;
+    height: 30px;
+    width: 0;
+  }
+  
+  .progress-value-1 {
+    animation: load1 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    background: rgb(19, 18, 18);
+    color: #fff;
+    height: 30px;
+    width: 0;
+  }
+  
+  .progress-value-2 {
+    animation: load2 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    background: rgb(19, 18, 18);
+    color: #fff;
+    height: 30px;
+    width: 0;
+  }
+
+  .progress-value-3 {
+    animation: load3 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    background: rgb(19, 18, 18);
+    color: #fff;
+    height: 30px;
+    width: 0;
+  }
+  
+  .progress-value-4 {
+    animation: load4 3s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    background: rgb(19, 18, 18);
+    color: #fff;
+    height: 30px;
+    width: 0;
+  }
+  @keyframes load {
+    0% { width: 0; }
+    100% { width: 98%; }
+  }
+  
+  @keyframes load1 {
+    0% { width: 0; }
+    100% { width: 95%; }
+  }
+
+  
+  @keyframes load2 {
+    0% { width: 0; }
+    100% { width: 93%; }
+  }
+  
+  @keyframes load3 {
+    0% { width: 0; }
+    100% { width: 50%; }
+  }
+  
+  @keyframes load4 {
+    0% { width: 0; }
+    100% { width: 85%; }
+  }
+
+
+/* our team start */
+.team-about{
+  background-color: black;
+  color: #fff;
+  margin-bottom: 60px;
+ 
+}
+
+.team { 
+ 
+  
+background-color: #555;
+color: #fff;
+padding: 20px;}
+
+#our-team{
+  padding: 20px;
+}
+
+.team-pic{
+  padding-top: 10pxpx;
+}
+.ourteam-head{
+  background-color:rgb(197, 136, 23);
+  color: black;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: -28px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+/* our team end */

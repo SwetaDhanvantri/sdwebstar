@@ -1,0 +1,68 @@
+.services{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(82, 41, 156);
+    color: aliceblue;
+    justify-content: center;
+}
+.services h1{
+    text-transform: uppercase;
+    font-size: 72px;
+   padding-bottom: 20px;
+ 
+}
+
+
+.services p{
+    font-size: 20px;
+    color: rgb(218, 211, 211);
+}
+
+.service-btn{
+    padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+.service-contact{
+    background-color: #fff !important;
+    color: rgb(82, 41, 156);
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 0px;
+   border: 1px solid #fff;
+}
+.service-contact:hover{
+    background-color: rgb(82, 41, 156) !important;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 3px solid #fff;
+  
+}
+.digi-titte{
+    font-size: 51px;
+    text-transform: uppercase;
+}
+
+/* service nxt */
+.services-nxt p{
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+}
+
+.services-nxt h1{
+    text-transform: uppercase;
+    font-size: 72px;
+   padding-bottom: 20px;
+ 
+}
+.services-nxt .row{
+    box-shadow: none;
+}
+.services-nxt{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f4f4f4;
+    
+    justify-content: center;
+}
