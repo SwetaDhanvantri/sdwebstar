@@ -37,7 +37,7 @@ const hideDropdown = e => {
       <div>
       <Navbar collapseOnSelect expand="lg" bg="light" variant="light" >
       <Container>
-      <Navbar.Brand as={Link} to={"/"} ><img src='img\logo-black.png' height='50px' width='50px'/></Navbar.Brand>
+      <Navbar.Brand as={Link} to={"/"} ><img src='img\logo-black.png' alt='brand' height='50px' width='50px'/></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mx-auto">
