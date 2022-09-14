@@ -19,7 +19,7 @@ function About() {
               <Container>
                 <div className='first-line'><p>Hi I'Am</p></div>
                 <div className='name'><p>SHWETA DHANVANTRI</p></div>
-                <div className='service'><h7>Web Designer & Wordpress Developer</h7></div> 
+                <div className='service'><h7>Web Designer & Developer</h7></div> 
                 <div className='mt-3'><Button className='about-btn'>ABOUT ME <BsArrowDown/></Button></div>
              </Container>
              </div>
